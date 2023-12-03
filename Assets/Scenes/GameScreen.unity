@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabToSpawn: {fileID: 1065735834000715785, guid: d5502d469d793ac4ca9554e034fc4283, type: 3}
   spawnDelay: 5
-  spawnSize: {x: 175, y: 0.01, z: 175}
+  spawnSize: {x: 10, y: 0.01, z: 10}
 --- !u!4 &52065447
 Transform:
   m_ObjectHideFlags: 0
