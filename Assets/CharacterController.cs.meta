@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Scripts/ChangeScreen.cs.meta
-guid: df97033a66863b643bd88d8be6b0ce3b
-========
-guid: 0810819584ebe0d4c98ff4da9bc05724
->>>>>>>> main:Assets/CameraFollow.cs.meta
+guid: 5f768fba63e3b5b4b9f8e90b89d1bffa
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
