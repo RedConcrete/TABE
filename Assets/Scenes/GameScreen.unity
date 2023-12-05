@@ -152,9 +152,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec7886f4880e9a4892339c74d6ecde6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabToSpawn: {fileID: 1065735834000715785, guid: d5502d469d793ac4ca9554e034fc4283, type: 3}
+  prefabToSpawn: {fileID: 7096834206012634914, guid: cdd03b561f1e39a439fa52c9c9881f08, type: 3}
   spawnDelay: 5
-  spawnSize: {x: 10, y: 0.01, z: 10}
+  spawnSize: {x: 175, y: 0.01, z: 175}
 --- !u!4 &52065447
 Transform:
   m_ObjectHideFlags: 0
