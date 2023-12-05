@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/ChangeScreen.cs.meta
+guid: a20966a617547e341b14be80164f0f53
+========
+guid: 0810819584ebe0d4c98ff4da9bc05724
+>>>>>>>> main:Assets/CameraFollow.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
