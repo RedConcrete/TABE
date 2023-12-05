@@ -473,9 +473,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7402794304776682536, guid: 32d4eaa5172e2e242a6c1a63ffd06c19, type: 3}
+      propertyPath: playerSpeed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7402794304776682537, guid: 32d4eaa5172e2e242a6c1a63ffd06c19, type: 3}
       propertyPath: m_Name
-      value: Cube
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402794304776682537, guid: 32d4eaa5172e2e242a6c1a63ffd06c19, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7402794304776682540, guid: 32d4eaa5172e2e242a6c1a63ffd06c19, type: 3}
       propertyPath: m_RootOrder
