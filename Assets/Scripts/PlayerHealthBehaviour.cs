@@ -1,12 +1,14 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerHealthBehaviour : MonoBehaviour
 {
     public int maxHealth = 100;
     private int currentHealth;
 
-    private Text healthText; // Reference to the UI Text object
+    private TextMeshProUGUI healthText; // Reference to the UI Text object
 
     void Start()
     {
@@ -19,10 +21,11 @@ public class PlayerHealthBehaviour : MonoBehaviour
     {
         // Find the UI Text component with the tag "PlayerUI"
         GameObject uiObject = GameObject.FindGameObjectWithTag("PlayerUI");
+        Debug.Log(""+ uiObject.name);
 
         if (uiObject != null)
         {
-            healthText = uiObject.GetComponent<Text>();
+            healthText = uiObject.GetComponent<TextMeshProUGUI>();
 
             if (healthText == null)
             {
