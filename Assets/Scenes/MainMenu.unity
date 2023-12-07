@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -148,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5478851284860006611, guid: cdd03b561f1e39a439fa52c9c9881f08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 801.3
+      value: 810.2
       objectReference: {fileID: 0}
     - target: {fileID: 5478851284860006611, guid: cdd03b561f1e39a439fa52c9c9881f08, type: 3}
       propertyPath: m_LocalPosition.y
@@ -221,7 +221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5478851284860006611, guid: cdd03b561f1e39a439fa52c9c9881f08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 773
+      value: 781.9
       objectReference: {fileID: 0}
     - target: {fileID: 5478851284860006611, guid: cdd03b561f1e39a439fa52c9c9881f08, type: 3}
       propertyPath: m_LocalPosition.y
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 1167969330}
   - component: {fileID: 1167969329}
   m_Layer: 5
-  m_Name: Background
+  m_Name: GameMenuBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -322,7 +322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -360,7 +360,7 @@ GameObject:
   - component: {fileID: 1308657567}
   - component: {fileID: 1308657566}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: GameMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -760,7 +760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5478851284860006611, guid: cdd03b561f1e39a439fa52c9c9881f08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 811
+      value: 819.9
       objectReference: {fileID: 0}
     - target: {fileID: 5478851284860006611, guid: cdd03b561f1e39a439fa52c9c9881f08, type: 3}
       propertyPath: m_LocalPosition.y
@@ -990,7 +990,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 121, y: 242}
+  m_AnchoredPosition: {x: 130, y: 242}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1791093377
@@ -1209,7 +1209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5478851284860006611, guid: cdd03b561f1e39a439fa52c9c9881f08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 762.6
+      value: 771.5
       objectReference: {fileID: 0}
     - target: {fileID: 5478851284860006611, guid: cdd03b561f1e39a439fa52c9c9881f08, type: 3}
       propertyPath: m_LocalPosition.y
