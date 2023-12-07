@@ -21,7 +21,6 @@ public class PlayerHealthBehaviour : MonoBehaviour
     {
         // Find the UI Text component with the tag "PlayerUI"
         GameObject uiObject = GameObject.FindGameObjectWithTag("PlayerUI");
-        Debug.Log(""+ uiObject.name);
 
         if (uiObject != null)
         {

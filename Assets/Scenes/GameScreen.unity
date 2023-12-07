@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabToSpawn: {fileID: 7096834206012634914, guid: cdd03b561f1e39a439fa52c9c9881f08, type: 3}
   spawnDelay: 5
+  TestAmount: 0
   spawnSize: {x: 175, y: 0.01, z: 175}
 --- !u!4 &52065447
 Transform:
@@ -1456,6 +1457,10 @@ PrefabInstance:
       objectReference: {fileID: 414133181}
     - target: {fileID: 7402794304776682537, guid: 32d4eaa5172e2e242a6c1a63ffd06c19, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402794304776682537, guid: 32d4eaa5172e2e242a6c1a63ffd06c19, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7402794304776682540, guid: 32d4eaa5172e2e242a6c1a63ffd06c19, type: 3}

@@ -3,7 +3,7 @@ using UnityEngine;
 public class CharacterController : MonoBehaviour
 {
     private Vector3 playerVelocity;
-    public float playerSpeed = 2.0f;
+    public float playerSpeed = 6.0f;
     public GameObject character;
     public GameObject uiPanel;
 

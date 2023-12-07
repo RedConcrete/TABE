@@ -5,8 +5,9 @@ public class EnemySpawnerScript : MonoBehaviour
 {
     public GameObject prefabToSpawn;
     public float spawnDelay = 5.0f; // Time delay between spawns
+    public bool TestAmount = true;
     public Vector3 spawnSize = new Vector3(10f, 1f, 10f);
-
+    private bool spawnEnemys = true;
     private List<Vector3> spawnedPositions = new List<Vector3>();
 
     void Start()
@@ -16,7 +17,7 @@ public class EnemySpawnerScript : MonoBehaviour
 
     System.Collections.IEnumerator SpawnPrefabsWithDelay()
     {
-        while (true)
+        while (spawnEnemys)
         {
             Vector3 randomPosition = GenerateRandomPosition();
 
@@ -25,9 +26,18 @@ public class EnemySpawnerScript : MonoBehaviour
 
             // Check if the position is clear before spawning
             if (!IsPositionOccupied(randomPosition, prefabToSpawn.GetComponent<Collider>().bounds.size))
-            {
-                Instantiate(prefabToSpawn, randomPosition, Quaternion.identity);
-                spawnedPositions.Add(randomPosition);
+            {   if (!TestAmount)
+                {
+                    Instantiate(prefabToSpawn, randomPosition, Quaternion.identity);
+                    spawnedPositions.Add(randomPosition);
+                }
+                else
+                {   
+                    Instantiate(prefabToSpawn, randomPosition, Quaternion.identity);
+                    spawnedPositions.Add(randomPosition);
+                    spawnEnemys = false;
+                }
+                
             }
 
             // Wait for the specified delay before the next spawn
