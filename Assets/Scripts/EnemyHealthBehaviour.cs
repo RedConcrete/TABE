@@ -21,9 +21,30 @@ public class EnemyHealthBehaviour : MonoBehaviour
         // Check if enemy is dead
         if (currentHealth == 0)
         {
-            // You can add game over logic or respawn logic here
+            
         }
 
         Debug.Log("HP: " + currentHealth.ToString());
     }
+
+    // Diese Methode wird aufgerufen, wenn das Projektil den Gegner trifft
+    void OnTriggerEnter(Collider other)
+    {
+        /*
+        if (other.CompareTag("Projectile"))
+        {
+            Projectile projectile = other.GetComponent<Projectile>();
+            if (projectile != null)
+            {
+                // Den Schaden des Projektils nehmen
+                TakeDamage(projectile.damage);
+
+                // Zerstöre das Projektil, nachdem es den Gegner getroffen hat
+                Destroy(other.gameObject);
+            }
+        }
+        */
+    }
+
+
 }
